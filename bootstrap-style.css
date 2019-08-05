@@ -1,0 +1,62 @@
+#mobile-header{display: none;}
+
+@media only screen and (max-width: 420px){
+	#desktop-header{display: none;}
+	#mobile-header{display: block;}
+}
+
+#mobile-header {
+	background-color: darkgray;
+	float: right;
+	color: lightgray;
+}
+
+#navbarSupportedContent1 {
+	position: absolute;
+	background-color: darkgray;
+}
+
+.jumbotron {
+	margin-top: 20px;
+}
+
+.container-fluid {
+	background-color: lightgray;
+}
+
+#content {
+	background-color: lightgray;
+}
+
+#thatFace {
+	display: inline-block;
+}
+
+.pic {
+	border-radius: 50%;
+	 padding-top: 40px;
+	 padding-bottom: 40px;
+	display: block;
+	margin: auto;
+ }
+
+html, body {
+	max-width: 100%;
+	overflow-x: hidden;
+}
+
+.card {
+	margin-left: 15px;
+	margin-right: 15px;
+}
+
+#four-photos {
+	padding-bottom: 30px;
+}
+
+.footer {
+	background-color: black;
+	margin: 0;
+	color: white;
+	text-align: center;
+}
